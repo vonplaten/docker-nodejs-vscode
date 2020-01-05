@@ -1,0 +1,17 @@
+{
+    "name": "Node.js",
+	"dockerComposeFile": [
+		"/home/casi/dev/docker/nodejs/docker-compose.yml",
+		"docker-compose.yml"
+	],    
+    "service": "mynodedev",
+    "workspaceFolder": "/usr/src/app",
+    "remoteUser": "node",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "yarn install",
+    "extensions": [
+        "dbaeumer.vscode-eslint"
+    ]
+}

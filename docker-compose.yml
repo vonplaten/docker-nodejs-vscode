@@ -1,0 +1,10 @@
+version: "2.3"
+services:
+  mynodedev:
+    build: .
+    image: my/node10:mynode
+    ports:
+      - "8080:3000"
+    ipc: host
+    user: node
+    container_name: mynode
