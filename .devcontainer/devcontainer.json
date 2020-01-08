@@ -1,9 +1,9 @@
 {
-    "name": "Node.js",
+    "name": "My Node.js",
 	"dockerComposeFile": [
-		"/home/casi/dev/docker/nodejs/docker-compose.yml",
+		"../docker-compose.yml",
 		"docker-compose.yml"
-	],    
+	],
     "service": "mynodedev",
     "workspaceFolder": "/usr/src/app",
     "remoteUser": "node",

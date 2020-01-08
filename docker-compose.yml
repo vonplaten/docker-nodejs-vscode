@@ -1,6 +1,7 @@
 version: "2.3"
 services:
   mynodedev:
+    
     build: .
     image: my/node10:mynode
     ports:
