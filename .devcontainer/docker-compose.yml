@@ -2,5 +2,5 @@ version: '2.3'
 services:
   mynodedev:
     volumes:
-      - /home/casi/dev/proj/11node/workspace:/usr/src/app
+      - C:\Users\casi\dev\docker-nodejs-vscode\workspace:/usr/src/app
     command: sleep infinity 
