@@ -10,7 +10,7 @@
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash"
     },
-    "postCreateCommand": "yarn install",
+    // "postCreateCommand": "yarn install",
     "extensions": [
         "dbaeumer.vscode-eslint"
     ]
