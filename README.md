@@ -1,7 +1,7 @@
-# docker-nodejs-vscode
+# NodeJS development environment with VSCode and Docker
 
 ## Description
-Development environment for NodeJS. Works on all OS.
+Development environment for NodeJS. Any OS.
 Folder .devcontainer is for editor VSCode.
 
 ## Run
