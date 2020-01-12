@@ -2,7 +2,7 @@
 
 ## Description
 Development environment for NodeJS. Any OS.
-Folder .devcontainer is for editor VSCode.
+The folder .devcontainer is for editor VSCode.
 
 ## Run
 - "docker-compose up --build" to test the container, then "docker-compose down" to shut down.
