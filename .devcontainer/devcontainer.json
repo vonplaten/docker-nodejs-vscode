@@ -11,8 +11,10 @@
         "terminal.integrated.shell.linux": "/bin/bash"
     },
     "shutdownAction": "stopCompose",
-    // "postCreateCommand": "yarn install",
     "extensions": [
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "coenraads.bracket-pair-colorizer",
+        "ritwickdey.liveserver"
     ]
 }
