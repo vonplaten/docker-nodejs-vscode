@@ -6,6 +6,7 @@ services:
     image: my/node10:mynode
     ports:
       - "8080:3000"
+      - "5500:5500"
     ipc: host
     user: node
     container_name: mynode
